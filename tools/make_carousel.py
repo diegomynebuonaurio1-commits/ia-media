@@ -17,7 +17,7 @@ body{width:1080px;height:1350px;background:#0a0e1a;color:#f5f6fa;font-family:Int
 .swipe{background:#fff;color:#0a0e1a;padding:12px 26px;border-radius:999px;font-weight:800}
 /* cover */
 .sticker{align-self:flex-start;transform:rotate(-4deg);background:#ffd84d;color:#1a1400;font-weight:900;font-size:40px;padding:14px 28px;border-radius:14px;box-shadow:0 10px 0 #b8941f;margin-bottom:48px}
-.huge{font-family:'Inter Display',Inter;font-weight:900;font-size:220px;line-height:.9;letter-spacing:-8px}
+.huge{font-family:'Inter Display',Inter;font-weight:900;font-size:220px;line-height:.9;letter-spacing:-8px;word-break:keep-all;overflow-wrap:normal;white-space:nowrap}
 .cov2{font-family:'Inter Display',Inter;font-weight:800;font-size:76px;line-height:1.06;letter-spacing:-2px;margin-top:18px}
 .covsub{font-size:42px;color:#c9cfdd;margin-top:40px;line-height:1.35;font-weight:500}
 .chips{display:flex;gap:16px;margin-top:46px}.chip{background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.16);border-radius:999px;padding:12px 24px;font-size:30px;font-weight:600}
@@ -71,6 +71,7 @@ def build(spec, outdir):
         b = pw.chromium.launch(); pg = b.new_page(viewport={"width":1080,"height":1350})
         for i, inner in enumerate(s, 1):
             pg.set_content(page(inner, i, tot)); pg.wait_for_timeout(250)
+            pg.evaluate("""()=>{for(const el of document.querySelectorAll('.huge,.title,.endt')){let s=parseFloat(getComputedStyle(el).fontSize);const W=el.parentElement.clientWidth;while(el.scrollWidth>W+1&&s>40){s-=4;el.style.fontSize=s+'px';}}}""")
             if pg.evaluate("(()=>{const w=document.querySelector('.wrap');return w.scrollHeight>w.clientHeight+2})()"):
                 print("TROPPO LUNGO slide", i)
             pg.screenshot(path=f"{outdir}/slide_{i:02d}.png")

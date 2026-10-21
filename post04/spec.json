@@ -1,0 +1,8 @@
+{"cover":{"sticker":"🧰 IA PER MESTIERE","huge":"Elettricista","line":"dal *vocale* al *preventivo*","sub":"4 prompt e il preventivo è pronto.","chips":["Artigiani","Partita IVA"]},
+"items":[
+{"emoji":"🎙️","title":"Il cliente ti manda un *vocale*","prompt":"Ecco la trascrizione del vocale di un cliente: [incolla]. Elenca i lavori richiesti, le misure e i dubbi da chiarire prima del sopralluogo.","time":"Niente appunti persi","for":"Sopralluogo"},
+{"emoji":"📦","title":"La lista dei *materiali*","prompt":"Per questi lavori: [elenco]. Prepara la lista dei materiali con quantità indicative e le voci di manodopera separate, in una tabella.","time":"Risparmi ~20 min","for":"Preventivo"},
+{"emoji":"🧾","title":"Il *preventivo* scritto bene","prompt":"Con questa tabella [incolla] scrivi un preventivo chiaro per il cliente: descrizione dei lavori, cosa è escluso, tempi e condizioni di pagamento. Lascia vuoti i prezzi da inserire io.","time":"Più professionale","for":"Cliente"},
+{"emoji":"💬","title":"Il messaggio *WhatsApp* di invio","prompt":"Scrivi un messaggio breve e cordiale per inviare il preventivo a [nome], con l'invito a chiamarmi per qualsiasi dubbio.","time":"30 secondi","for":"Cliente"}
+],
+"end":{"title":"Fai un *mestiere?*","kw":"PROMPT","sub":"Commenta il tuo lavoro e faccio il prossimo video per te 👇"}}

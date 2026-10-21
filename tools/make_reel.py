@@ -26,6 +26,7 @@ def frames(spec, n_items, outdir):
         for i, inner in enumerate(s, 1):
             html = mc.page(inner, i, len(s)).replace("</style>", V_CSS + "</style>").replace("<span class='swipe'>Scorri →</span>", "<span class='swipe'>Salva il reel 💾</span>")
             pg.set_content(html); pg.wait_for_timeout(250)
+            pg.evaluate("""()=>{for(const el of document.querySelectorAll('.huge,.title,.endt')){let s=parseFloat(getComputedStyle(el).fontSize);const W=el.parentElement.clientWidth;while(el.scrollWidth>W+1&&s>40){s-=4;el.style.fontSize=s+'px';}}}""")
             if pg.evaluate("(()=>{const w=document.querySelector('.wrap');return w.scrollHeight>w.clientHeight+2})()"):
                 print("TROPPO LUNGO frame", i)
             p = os.path.join(outdir, f"f{i:02d}.png"); pg.screenshot(path=p); paths.append(p)

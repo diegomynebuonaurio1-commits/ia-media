@@ -47,3 +47,5 @@ Un post su due della serie: "Cosa farei con l'IA se fossi un/una [mestiere]" con
 | 2026-10-22 10:00 | post02 carosello | 12 |
 | 2026-10-24 10:00 | post03 reel | 20 |
 | 2026-10-21 19:30 | post00 Comincia da qui (da fissare) | - |
+| 2026-10-23 18:00 | post04 reel | serie mestieri: elettricista |
+| 2026-10-25 18:00 | post05 trial reel | 4 trucchi ChatGPT |

@@ -1,0 +1,8 @@
+{"cover":{"sticker":"🤫 POCHI LI USANO","huge":"4 trucchi","line":"per usare *ChatGPT meglio*","sub":"Il #3 cambia tutte le risposte.","chips":["ChatGPT","Claude","Gemini"]},
+"items":[
+{"emoji":"❓","title":"Fatti fare *le domande*","prompt":"Prima di rispondere, fammi tutte le domande che ti servono per darmi la risposta migliore su: [richiesta].","time":"Risposte su misura","for":"Tutti"},
+{"emoji":"🎭","title":"Dagli *un ruolo*","prompt":"Comportati come un [esperto, es. commercialista con 20 anni di esperienza] e rispondi solo come farebbe lui: [domanda].","time":"Più precisione","for":"Tutti"},
+{"emoji":"📐","title":"Decidi tu *il formato*","prompt":"Rispondi in massimo 5 punti, ognuno di una riga, e chiudi con l'azione da fare oggi: [domanda].","time":"Zero fuffa","for":"Tutti"},
+{"emoji":"🔁","title":"Fattelo *criticare*","prompt":"Rileggi la risposta che mi hai appena dato: trova 3 punti deboli o errori e riscrivila migliorata.","time":"Meno errori","for":"Tutti"}
+],
+"end":{"title":"Ne vuoi *altri?*","kw":"PROMPT","sub":"Commenta PROMPT e ti mando la guida con 20 prompt.<br>Segui per i prossimi."}}
