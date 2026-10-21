@@ -9,7 +9,9 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 - Guida gratuita per chi commenta PROMPT: https://diegomynebuonaurio1-commits.github.io/ia-media/
 
 ## Calendario
-- 4 caroselli a settimana (mar, mer, gio, sab) all'orario migliore indicato da Metricool (getBestTimeToPostByNetwork), brand Metricool 7555398, fuso Europe/Rome.
+- PIANO GRATUITO METRICOOL: massimo 20 post programmati al mese (controlla con getScheduledPosts quanti ce ne sono già nel mese prima di programmarne altri).
+- 4 post a settimana: 2 caroselli (mar, gio) e 2 reel (mer, sab). Reel: `python3 tools/make_reel.py postNN/spec.json postNN/reel.mp4 4` (spec con 4 prompt brevi, 1080x1920, ~25 s, muto), su Metricool type REEL con videoCoverMilliseconds 500. Un reel su due può essere TRIAL_REEL per raggiungere chi non segue.
+- Vecchia regola sostituita: 4 caroselli a settimana (mar, mer, gio, sab) all'orario migliore indicato da Metricool (getBestTimeToPostByNetwork), brand Metricool 7555398, fuso Europe/Rome.
 - Immagini: caricate in questo repo, URL https://raw.githubusercontent.com/diegomynebuonaurio1-commits/ia-media/main/postNN/slide_XX.jpg
 
 ## Idee (segna [x] quando pubblicata, numerazione del piano di lancio)
@@ -21,12 +23,12 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 - [ ] 7 Curriculum riscritto dall'IA: prima e dopo
 - [ ] 10 La tua settimana pianificata in 2 minuti
 - [ ] 11 Come capire se un testo l'ha scritto l'IA
-- [ ] 12 7 prompt per chi ha una partita IVA
+- [x] 12 7 prompt per chi ha una partita IVA (post02)
 - [ ] 13 Rispondi alle recensioni negative senza perdere la calma
 - [ ] 15 Studia il doppio più veloce con questo metodo
 - [ ] 16 ChatGPT, Claude o Gemini: quale usare per cosa
 - [ ] 18 Trova un nome per il tuo progetto in 1 minuto
-- [ ] 20 5 prompt per preparare un colloquio
+- [x] 20 Prompt per preparare un colloquio (post03, reel)
 - [ ] 21 L'IA ha fatto i conti di casa: ecco come
 - [ ] 22 Quello che l'IA NON deve sapere di te
 - [ ] 26 10 domande da fare all'IA prima di un acquisto
@@ -38,4 +40,6 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 ## Registro pubblicazioni
 | Data | Post | Idea |
 | --- | --- | --- |
-| 2026-10-21 10:00 | post01 | 1 |
+| 2026-10-21 10:00 | post01 carosello | 1 |
+| 2026-10-22 10:00 | post02 carosello | 12 |
+| 2026-10-24 10:00 | post03 reel | 20 |
