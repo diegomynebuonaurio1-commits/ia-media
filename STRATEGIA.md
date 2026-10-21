@@ -14,6 +14,9 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 - Vecchia regola sostituita: 4 caroselli a settimana (mar, mer, gio, sab) all'orario migliore indicato da Metricool (getBestTimeToPostByNetwork), brand Metricool 7555398, fuso Europe/Rome.
 - Immagini: caricate in questo repo, URL https://raw.githubusercontent.com/diegomynebuonaurio1-commits/ia-media/main/postNN/slide_XX.jpg
 
+## Serie fissa "L'IA per il tuo mestiere" (ispirata ai profili che crescono di più)
+Un post su due della serie: "Cosa farei con l'IA se fossi un/una [mestiere]" con sottotitolo "dal [input] al [risultato]" (es. dal vocale al preventivo). Mestieri: commercialista, elettricista, idraulico, parrucchiere, centro estetico, ristoratore, agente immobiliare, fotografo, personal trainer, avvocato, insegnante, fonico/service audio. Solo flussi realistici con strumenti esistenti e prompt concreti; niente promesse di guadagno.
+
 ## Idee (segna [x] quando pubblicata, numerazione del piano di lancio)
 - [x] 1 I 10 prompt che uso ogni giorno (post01)
 - [ ] 2 5 tool IA gratuiti che sembrano illegali
@@ -43,3 +46,4 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 | 2026-10-21 10:00 | post01 carosello | 1 |
 | 2026-10-22 10:00 | post02 carosello | 12 |
 | 2026-10-24 10:00 | post03 reel | 20 |
+| 2026-10-21 19:30 | post00 Comincia da qui (da fissare) | - |
