@@ -1,0 +1,11 @@
+{"cover":{"sticker":"💼 PARTITA IVA","huge":"7 prompt","line":"per chi lavora *in proprio*","sub":"Preventivi, clienti, solleciti, social.<br>Il #4 ti fa recuperare i soldi senza litigare.","chips":["Freelance","Artigiani","Negozi"]},
+"items":[
+{"emoji":"🧾","title":"Il preventivo che *convince*","prompt":"Scrivi un preventivo per [servizio] destinato a [tipo di cliente]. Includi cosa è compreso, cosa no, tempi e condizioni di pagamento. Tono professionale e semplice, massimo una pagina.","time":"Risparmi ~30 min","for":"Freelance"},
+{"emoji":"📞","title":"Rispondi al cliente *senza perderlo*","prompt":"Un cliente mi ha scritto: [messaggio]. Rispondi in modo cortese e chiaro, proponi una soluzione concreta e chiudi con il prossimo passo. Massimo 100 parole.","time":"Risparmi ~10 min","for":"Clienti"},
+{"emoji":"💶","title":"Quanto *far pagare* davvero","prompt":"Faccio [lavoro] e ci metto in media [ore] ore per progetto. Le mie spese mensili sono [euro]. Aiutami a calcolare una tariffa oraria e a progetto, mostrando i conti passo per passo.","time":"Prezzi più chiari","for":"Tutti"},
+{"emoji":"⏰","title":"Il sollecito di pagamento *gentile ma fermo*","prompt":"Il cliente [nome] non ha pagato la fattura [numero] scaduta da [giorni] giorni. Scrivi 3 solleciti: il primo cordiale, il secondo più deciso, il terzo formale con una scadenza precisa.","time":"Zero imbarazzo","for":"Pagamenti"},
+{"emoji":"📣","title":"Un mese di post *in 10 minuti*","prompt":"Ho un'attività di [tipo] a [città]. Scrivi 12 idee di post per Instagram per questo mese: per ognuna titolo, formato e la frase di apertura.","time":"Risparmi ~2 ore","for":"Social"},
+{"emoji":"📋","title":"La settimana *sotto controllo*","prompt":"Ecco i miei lavori in corso con le scadenze: [elenco]. Organizzali per priorità in un piano giorno per giorno e dimmi cosa rischia di slittare.","time":"Meno stress","for":"Organizzazione"},
+{"emoji":"🤝","title":"Il messaggio per *trovare clienti*","prompt":"Scrivi un messaggio breve per proporre [servizio] a [tipo di azienda]. Niente frasi da venditore: parti da un loro problema concreto e chiudi con una domanda semplice.","time":"Più risposte","for":"Vendite"}
+],
+"end":{"title":"Ti è *servito?*","kw":"PROMPT","sub":"Commenta PROMPT e ti mando altri 20 prompt.<br>Per tasse e contributi chiedi sempre al commercialista 😉"}}

@@ -1,0 +1,8 @@
+{"cover":{"sticker":"🎯 COLLOQUIO","huge":"4 prompt","line":"per *spaccare* al colloquio","sub":"Salvalo prima del prossimo colloquio.","chips":["Lavoro","Carriera"]},
+"items":[
+{"emoji":"🔎","title":"Studia l'azienda *in 5 minuti*","prompt":"Sto per fare un colloquio come [ruolo] presso [azienda]. Dimmi cosa devo sapere del settore, quali problemi potrebbe avere un'azienda così e 3 domande intelligenti da fare io.","time":"Arrivi preparato","for":"Colloquio"},
+{"emoji":"🎤","title":"Allenati con un *selezionatore finto*","prompt":"Fai il selezionatore per il ruolo di [ruolo]. Fammi una domanda alla volta, aspetta la mia risposta, poi dimmi cosa migliorare. Alla fine dammi un voto da 1 a 10.","time":"Meno ansia","for":"Allenamento"},
+{"emoji":"💪","title":"Racconta i tuoi *punti di forza*","prompt":"Ecco le mie esperienze: [elenco]. Trasformale in 3 esempi concreti con il metodo situazione, azione, risultato, da raccontare in meno di un minuto ciascuno.","time":"Risposte pronte","for":"Colloquio"},
+{"emoji":"💬","title":"La domanda sullo *stipendio*","prompt":"Mi chiederanno quanto voglio guadagnare per il ruolo di [ruolo] a [città]. Aiutami a preparare una risposta sicura e gentile, con una forbice ragionevole e come motivarla.","time":"Niente panico","for":"Trattativa"}
+],
+"end":{"title":"Ne vuoi *altri 20?*","kw":"PROMPT","sub":"Scrivilo nei commenti 👆 e te li mando in privato.<br>Segui per un prompt nuovo ogni giorno."}}
