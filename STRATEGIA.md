@@ -10,7 +10,7 @@ Pagina Instagram italiana "senza volto" sull'IA usata davvero: prompt pronti e s
 
 ## Calendario
 - PIANO GRATUITO METRICOOL: massimo 20 post programmati al mese (controlla con getScheduledPosts quanti ce ne sono già nel mese prima di programmarne altri).
-- 4 post a settimana: 2 caroselli (mar, gio) e 2 reel (mer, sab). Reel: `python3 tools/make_reel.py postNN/spec.json postNN/reel.mp4 4` (spec con 4 prompt brevi, 1080x1920, ~25 s, muto), su Metricool type REEL con videoCoverMilliseconds 500. Un reel su due può essere TRIAL_REEL per raggiungere chi non segue.
+- 4 post a settimana: 2 caroselli (mar, gio) e 2 reel (mer, sab). Reel: `python3 tools/make_reel.py postNN/spec.json postNN/reel.mp4 4` (spec con 4 prompt brevi, 1080x1920, ~25 s, con musica originale generata da tools/music.py, senza copyright), su Metricool type REEL con videoCoverMilliseconds 500. Un reel su due può essere TRIAL_REEL per raggiungere chi non segue.
 - Vecchia regola sostituita: 4 caroselli a settimana (mar, mer, gio, sab) all'orario migliore indicato da Metricool (getBestTimeToPostByNetwork), brand Metricool 7555398, fuso Europe/Rome.
 - Immagini: caricate in questo repo, URL https://raw.githubusercontent.com/diegomynebuonaurio1-commits/ia-media/main/postNN/slide_XX.jpg
 

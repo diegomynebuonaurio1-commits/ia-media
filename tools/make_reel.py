@@ -1,4 +1,4 @@
-"""Crea un reel verticale 1080x1920 (circa 25 s, muto) da uno spec di carosello.
+"""Crea un reel verticale 1080x1920 (circa 25 s, con musica originale) da uno spec di carosello.
 Uso: python3 tools/make_reel.py postNN/spec.json postNN/reel.mp4 [numero_prompt=4]"""
 import json, os, subprocess, sys, tempfile
 sys.path.insert(0, os.path.dirname(__file__))
@@ -54,7 +54,14 @@ if __name__ == "__main__":
     with tempfile.TemporaryDirectory() as d:
         ps = frames(spec, n, d)
         durs = [3.0] + [5.0] * (len(ps) - 2) + [4.0]
-        video(ps, out, durs)
+        muto = os.path.join(d, "muto.mp4")
+        video(ps, muto, durs)
+        # base musicale originale (nessun copyright), diversa per ogni reel
+        import zlib, music
+        wav = os.path.join(d, "musica.wav")
+        music.save(music.build(sum(durs) - 0.4 * (len(durs) - 1), zlib.crc32(out.encode()) % 1000), wav)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", muto, "-i", wav, "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out], check=True)
         cover = os.path.splitext(out)[0] + "_cover.jpg"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", ps[0], "-q:v", "2", cover], check=True)
     print("ok", out)
